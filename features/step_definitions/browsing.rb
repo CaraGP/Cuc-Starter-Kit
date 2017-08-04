@@ -1,3 +1,3 @@
 When(/^I visit "([^"]*)"$/) do |page|
-  visit $pages[page]
+  visit $mappings["pages"][page]
 end
